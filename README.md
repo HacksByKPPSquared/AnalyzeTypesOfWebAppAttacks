@@ -27,7 +27,7 @@ Welcome to **My Lab**, where we dive into the dark, murky world of web applicati
 
 ## 🌈 Why This Lab Matters:
 
-Understanding web application vulnerabilities like SQL injection and XSS is key for anyone working in web development or cybersecurity. By learning how these attacks happen, you’re not only ready to defend against them—you’re one step closer to becoming a full-blown web security hero! 🦸‍♂️🦸‍♀️
+Understanding web application vulnerabilities like SQL injection and XSS is key for anyone working in web development or cybersecurity. By learning how these attacks happen, you’re not only ready to defend against them—you’re one step closer to becoming a full-blown web security hero! 🦸🏾‍♂️🦸🏾‍♀️
 
 ---
 
