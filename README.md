@@ -36,4 +36,4 @@ Understanding web application vulnerabilities like SQL injection and XSS is key 
 ---
 
 Ready to defend the web, one exploit at a time? Let’s code securely and keep the internet a safe place! 🌍🛡️
-## 👉🏾[Lab Walkthrough]()
+## 👉🏾[Lab Walkthrough](https://github.com/Kpierre03/AnalyzeTypesOfWebAppAttacks/blob/main/Analyze.md)
