@@ -1,4 +1,4 @@
-# Analyzing Types of Web Application Attacks
+# 🔍Analyzing Types of Web Application Attacks🌐
 
 1\. Launch the DVL virtual machine.
 
