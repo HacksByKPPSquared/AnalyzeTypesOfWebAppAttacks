@@ -1,4 +1,4 @@
-# 💻 Lab 09 - Analyzing Types of Web Application Attacks 🌐
+# 💻 Analyzing Types of Web Application Attacks 🌐
 
 Welcome to **My Lab**, where we dive into the dark, murky world of web application attacks! From SQL injection to cross-site scripting (XSS), this lab teaches you how the bad guys get in—and more importantly, how to stop them. ⚔️ Let's break it down!
 
