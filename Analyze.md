@@ -1,6 +1,4 @@
-Ken P. Pierre II
-
-Lab 09 Analyzing Types of Web Application Attacks
+# Analyzing Types of Web Application Attacks
 
 1\. Launch the DVL virtual machine.
 
@@ -8,8 +6,7 @@ Lab 09 Analyzing Types of Web Application Attacks
 
 3\. When prompted for a password, type toor and press Enter again.
 
-4\. When presented with the user prompt, type startx and then press
-Enter.
+4\. When presented with the user prompt, type startx and then press Enter.
 
 <img src="./media/image1.png" style="width:3.60736in;height:0.8171in" />
 
@@ -21,21 +18,16 @@ Start WebGoat port 80.
 <img src="./media/image2.png"
 style="width:5.85931in;height:2.14514in" />
 
-6\. A new terminal window will appear, showing the WebGoat startup
-process. Leave this shell open and minimize it for now.
+6\. A new terminal window will appear, showing the WebGoat startup process. Leave this shell open and minimize it for now.
 
-7\. Open the Firefox web browser by clicking on the icon located on the
-bottom taskbar.
+7\. Open the Firefox web browser by clicking on the icon located on the bottom taskbar.
 
-<img src="./media/image3.png"
-style="width:2.60453in;height:0.43756in" />
+<img src="./media/image3.png" style="width:2.60453in;height:0.43756in" />
 
-8\. While in Firefox, type http://127.0.0.1/WebGoat/attack
-(case-sensitive) into the address field, followed by pressing the Enter
+8\. While in Firefox, type http://127.0.0.1/WebGoat/attack (case-sensitive) into the address field, followed by pressing the Enter
 key.
 
-9\. When prompted for authentication, type password. Click OK. guest as
-the username and guest as the Click OK.
+9\. When prompted for authentication, type password. Click OK. guest as the username and guest as the Click OK.
 
 <img src="./media/image4.png"
 style="width:5.80289in;height:2.28157in" />
@@ -48,28 +40,25 @@ Click the Start WebGoat button.
 11\. Once the page redirects, click on the Injection Flaws menu item
 located on the left; this will open more options.
 
-<img src="./media/image6.png"
-style="width:2.07939in;height:3.47556in" />
+<img src="./media/image6.png" style="width:2.07939in;height:3.47556in" />
 
 12\. Click on String SQL Injection.
 
-<img src="./media/image7.png"
-style="width:2.05237in;height:3.00042in" />
+<img src="./media/image7.png" style="width:2.05237in;height:3.00042in" />
 
 13\. At the top-right of the webpage, click on Restart this Lesson.
 
 <img src="./media/image8.png" style="width:5.66746in;height:3.2192in" />
 
-14\. Type Smith into the Enter your last name text field and click on
-the Go! button.
+14\. Type Smith into the Enter your last name text field and click on the Go! button.
 
 <img src="./media/image9.png"
 style="width:5.38617in;height:3.27129in" />
 
-Note that this is how the query is meant to be used . You type in an
-input and expect the proper output. In this case, we searched for users
-with the last name Smith and we received information from the database
-regarding all the Smiths.
+>Note that this is how the query is meant to be used . You type in an
+>input and expect the proper output. In this case, we searched for users
+>with the last name Smith and we received information from the database
+>regarding all the Smiths.
 
 <img src="./media/image10.png"
 style="width:5.28199in;height:1.71899in" />
@@ -95,39 +84,33 @@ from the left menu.
 <img src="./media/image13.png"
 style="width:1.96902in;height:2.57328in" />
 
-19\. You will be redirected to a Human Resource login page. Select
-Neville Bartholomew (admin) from the drop-down box. Attempt to login
+19\. You will be redirected to a Human Resource login page. Select Neville Bartholomew (admin) from the drop-down box. Attempt to login
 without a password by pressing the Login button.
 
 <img src="./media/image14.png"
 style="width:3.74332in;height:2.66785in" />
 
-20\. No access has been given. On the Firefox window, select Tools from
-the top menu and click on the Tamper Data tool.
+20\. No access has been given. On the Firefox window, select Tools from the top menu and click on the Tamper Data tool.
 
 <img src="./media/image15.png"
 style="width:5.17781in;height:3.04209in" />
 
-21\. A new Tamper Data application window will appear. Click the Start
-Tamper file menu option.
+21\. A new Tamper Data application window will appear. Click the Start Tamper file menu option.
 
 <img src="./media/image16.png"
 style="width:3.23822in;height:3.40013in" />
 
-22\. Change focus to the WebGoat web page. Select Neville Bartholomew
-(admin) once more from the user list and click the Login button.
+22\. Change focus to the WebGoat web page. Select Neville Bartholomew (admin) once more from the user list and click the Login button.
 
 <img src="./media/image17.png"
 style="width:3.50097in;height:2.39233in" />
 
-23\. Notice a new pop-up message from the Tamper Data tool appears.
-Click the Tamper button to proceed.
+23\. Notice a new pop-up message from the Tamper Data tool appears. Click the Tamper button to proceed.
 
 <img src="./media/image18.png"
 style="width:4.30268in;height:1.33352in" />
 
-24\. In the new Tamper Popup window, type the string field. Click OK. ‘
-or 1=1-- into the passwor
+24\. In the new Tamper Popup window, type the string field. Click OK. or 1=1-- into the password
 
 <img src="./media/image19.png"
 style="width:3.80066in;height:3.98293in" />
@@ -138,15 +121,13 @@ menu
 <img src="./media/image20.png"
 style="width:3.10008in;height:3.25431in" />
 
-26\. Notice the successful SQL injection on the WebGoat web page. We now
-have access to the user database as the administrator. Select the first
+26\. Notice the successful SQL injection on the WebGoat web page. We now have access to the user database as the administrator. Select the first
 user from the list; Larry Stooge and click the ViewProfile button.
 
 <img src="./media/image21.png"
 style="width:3.71856in;height:2.99437in" />
 
-27\. Notice that we have complete control over all user profiles and
-complete access to their personal information.
+27\. Notice that we have complete control over all user profiles and complete access to their personal information.
 
 <img src="./media/image22.png"
 style="width:4.81317in;height:3.7401in" />
@@ -304,7 +285,7 @@ style="width:7.00098in;height:4.66732in" />
 
 28\. Leave the DVWA web page open for the next task.
 
-2\. Cross Site Scripting XSS
+## 2\. Cross Site Scripting XSS
 
 2.1 Using DVWA for XSS
 
